@@ -1,0 +1,30 @@
+html,body{
+    height: 100%;
+}
+*{
+    margin:0;
+    padding: 0;
+}
+.chess-container{
+    border: 5px solid gray;
+    border-collapse: collapse;
+    background-image: url("../media/шахматная доска.png");
+    background-size: cover;
+    width: 50vw;
+    height: 50vw;
+    padding: 5.5vw;
+    background-position-x: -0.1vw;
+    background-position-y: -0.1vw;
+}
+.chess-board{
+    border-collapse: collapse;
+    height: inherit;
+    width: inherit;
+}
+td{
+    height: 12.5%;
+    width: 12.5%;
+    font-size: 5pt;
+    text-align: center;
+    /*border: 1px solid blue ;*/
+}
