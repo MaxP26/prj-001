@@ -28,3 +28,19 @@ td{
     text-align: center;
     /*border: 1px solid blue ;*/
 }
+td[title]{
+    background-image: url("../media/153364.png");
+    background-size: 600% 200%;
+}
+td[title="q"]{background-position-x: -100%;}
+td[title="r"]{background-position-x: -80%;}
+td[title="n"]{background-position-x: -60%;}
+td[title="b"]{background-position-x: -40%;}
+td[title="p"]{background-position-x: -20%;}
+td[title="k"]{background-position-x: -0%;}
+td[title="Q"]{background-position-x: -100%;background-position-y: -100%}
+td[title="R"]{background-position-x: -80%;background-position-y: -100%}
+td[title="N"]{background-position-x: -60%;background-position-y: -100%}
+td[title="B"]{background-position-x: -40%;background-position-y: -100%}
+td[title="P"]{background-position-x: -20%;background-position-y: -100%}
+td[title="K"]{background-position-x: -0%;background-position-y: -100%}
